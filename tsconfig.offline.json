@@ -1,0 +1,1 @@
+{ "extends": "./tsconfig.json", "compilerOptions": { "types": [], "allowSyntheticDefaultImports": true, "esModuleInterop": true }, "include": ["src", "test", "types/offline"] }

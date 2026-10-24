@@ -1,0 +1,27 @@
+{
+  "appId": "com.exoralabs.saathi",
+  "appName": "Saathi",
+  "webDir": "dist",
+  "backgroundColor": "#F2F2F7",
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_saathi",
+      "iconColor": "#0E7C7B",
+      "sound": "saathi_chime.wav"
+    },
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    },
+    "SplashScreen": {
+      "launchShowDuration": 600,
+      "backgroundColor": "#F2F2F7",
+      "showSpinner": false
+    }
+  },
+  "ios": {
+    "contentInset": "always"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

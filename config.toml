@@ -1,0 +1,6 @@
+# Minimal Supabase CLI config. `supabase link --project-ref <ref>` then `supabase db push`.
+project_id = "saathi"
+[functions.saathi-admin]
+verify_jwt = true
+[functions.saathi-ai]
+verify_jwt = true
